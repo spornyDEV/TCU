@@ -1,0 +1,277 @@
+<!--
+	This is the default localization file.
+	The "id" attribute is how the launcher addresses each string internally.
+	The inner text (between the <string>...</string> diamond brackets) is the actual string that will be shown to the user.
+	
+	To create a new line in inner text, you can either type in "\n" (ie "\n\n" for 2 new lines),
+	or just press Enter to create a new line as usual. Both methods work.
+-->
+<lang>
+	<!-- Info -->
+	<info lang="Deutsch" author="Jan"/>
+	<!-- Aktionen -->
+	<string id="ok">OK</string>
+	<string id="accept">Akzeptieren</string>
+	<string id="cancel">Abbrechen</string>
+	<string id="yes">Ja</string>
+	<string id="no">Nein</string>
+	<string id="no_scary">NEIN</string>
+	<string id="manual_install">Manuell</string>
+	<string id="select">Auswählen</string>
+	<string id="selected">Ausgewählt</string>
+	<string id="run_anyway">Trotzdem ausführen</string>
+	<string id="create">Erstellen</string>
+	<string id="import">Importieren</string>
+	<string id="rename">Umbenennen</string>
+	<string id="file">Datei</string>
+	<string id="play">Spielen</string>
+	<string id="play_on_steam">Auf Steam spielen</string>
+	<string id="restart">Neustart</string>
+	<string id="exit">Beenden</string>
+	<string id="exit_anyway">Trotzdem beenden</string>
+
+	<!-- Titel -->
+	<string id="is_success">Erfolg</string>
+	<string id="is_offline">Offline</string>
+	<string id="is_error">Fehler</string>
+	<string id="warning">Warnung</string>
+	<string id="alert">Alarm</string>
+	<string id="info">Info</string>
+	<string id="already_running">Bereits gestartet</string>
+	<string id="deleting_savegame">SPEICHERSTAND WIRD GELÖSCHT</string>
+	<string id="fail_no_reason">Kein Grund</string>
+	<string id="patching_failed">Patchvorgang fehlgeschlagen</string>
+	<string id="server_list">Serverliste</string>
+	<string id="settings">Einstellungen</string>
+	<string id="settings_language">Sprache</string>
+	<string id="settings_options">Optionen</string>
+	<string id="title_settings_reset">Einstellungen zurücksetzen</string>
+	<string id="welcome_to_tcu">Willkommen bei {0}</string>
+	<string id="new_update">Neues Update</string>
+	<string id="processes_ongoing">Laufende Prozesse</string>
+	<string id="directory_invalid">Ungültiges Verzeichnis</string>
+	<string id="unpatched_instance">Ungepatchte Instanz</string>
+	<string id="version_error">Versionsfehler</string>
+	<string id="title_patch">Patch</string>
+	<string id="title_update">Update</string>
+	<string id="title_cheats">Cheats</string>
+	<string id="title_unsupported">Nicht unterstützt</string>
+	<string id="title_unavailable">Nicht verfügbar</string>
+	<string id="title_save_create">Neuen Speicherstand erstellen</string>
+	<string id="title_save_rename">Speicherstand umbenennen</string>
+	<string id="title_save_enter_new_name">Neuen Namen für Speicherstand eingeben</string>
+	<string id="title_save_active">Aktiver Speicherstand</string>
+	<string id="title_save_import">Speicherstand importieren</string>
+	<string id="title_save_export">Speicherstand exportieren</string>
+	<string id="title_save_import_ubi">UBI-Speicherstand importieren</string>
+	<string id="title_save_import_select">Wähle einen TCU-Speicherstand zum Importieren</string>
+	<string id="title_save_import_ubi_select">Wähle einen extrahierten Ubisoft-Speicherstand zum Importieren</string>
+	<string id="title_save_export_select">Wähle einen exportierten Speicherstand</string>
+	<string id="title_how_to_use">So verwendest du den TCU Launcher</string>
+	<string id="local_server_manager">Lokaler Server-Manager</string>
+
+	<!-- Launcher-Oberfläche -->
+	<string id="launcher_starting">TCU Launcher wird gestartet...</string>
+	<string id="status_bar">{0} Launcher {1} | Instanzen: {2}</string>
+	<string id="status_bar_update_pending">[Update verfügbar: {0}!]</string>
+	<string id="new_update_details">Neues Launcher-Update verfügbar: {0}. \n Möchtest du es jetzt herunterladen? \n (Hinweis: Du kannst Update-Hinweise beim Start in den Einstellungen deaktivieren)</string>
+	<string id="directory_invalid_details">Ungültiges {0}-Spielverzeichnis ausgewählt. Bitte wähle ein gültiges Verzeichnis, das die Datei "{1}" enthält.</string>
+	<string id="launcher_instructions">Der TCU Launcher hilft dir, deine The Crew-Spielinstallation(en) einzurichten und zu patchen. \n Er stellt KEINE Spieldateien bereit und hilft dir auch nicht, diese zu beschaffen. \n\n
+	So fügst du eine bestehende The Crew-Installation als „Spielinstanz“ hinzu:
+	- Klicke auf die [+]-Schaltfläche auf der linken Seite des Fensters
+	- Navigiere zu deinem The Crew-Installationsverzeichnis und wähle „TheCrew.exe“ aus
+	- Deine Spielinstallation ist nun als Spielinstanz hinzugefügt. Klicke auf die [{0}]-Schaltfläche, um den TCU-Patch in die ausgewählte Spielinstanz zu installieren.
+	- Wähle den Server, auf dem du spielen möchtest, in der Serverliste aus (Offline-Server für Offline-Spiel).
+	- Klicke auf [{1}] und hab Spaß!
+
+	So installierst du den TCU-Patch erneut:
+	- Entferne die Datei „{2}“ aus deinem Spielverzeichnis oder eine andere TCU-Patch-Datei. Dadurch zeigt der Launcher eine „Update“-Schaltfläche in der jeweiligen Spielinstanz an – drücke sie, um den TCU-Patch neu zu installieren!
+	</string>
+	<string id="archive_enter_password">Entschlüsselungspasswort eingeben</string>
+	<string id="archive_enter_password_details">Dieses Archiv ist verschlüsselt. Bitte gib das Passwort ein, um es zu entschlüsseln.</string>
+		<!-- Einstellungen -->
+	<string id="settings_reset">Auf Standard zurücksetzen</string>
+	<string id="settings_reset_details">Du bist dabei, deine Launcher-Einstellungen auf die Standardwerte zurückzusetzen. Bist du sicher, dass du fortfahren möchtest?</string>
+	<string id="settings_update_launcher">Launcher aktualisieren</string>
+	<string id="settings_launcher_updated">Launcher aktualisiert.</string>
+	<string id="settings_update_launcher_offline">Launcher ist offline</string>
+	<string id="settings_update_details">Du bist dabei, ein neues Launcher-Update zu installieren ({0}). Möchtest du fortfahren?</string>
+	<string id="settings_clear_downloads">Downloads löschen</string>
+	<string id="settings_legal_info">Rechtliches und Danksagungen</string>
+	<string id="settings_legal_info_details">Willkommen bei TCU!
+
+	TCU Projekt, 2025 [Gegründet {0}]
+	Erstellt von {1}.
+
+	TCU ist ein Community-Projekt, das das Online-Only-Spiel „{12}“ (2014) wiederbelebt, das 2024 abgeschaltet wurde.
+	*** Das TCU-Projekt und seine Entwickler stehen in keiner Verbindung zum Publisher {2} oder Entwickler {3}.
+
+	Der TCU Launcher (Version {4}) wurde von {1} erstellt und in {5} geschrieben, mit {6} für die Benutzeroberfläche.
+	Verwendete externe Bibliotheken:
+	* {7}, zur Anzeige der Hauptnachrichtenseite.
+	* {8}, für .7z-Archivunterstützung.
+
+	* Neben eigenen Assets werden einige Bilder, Schriftarten und Medien aus dem The Crew Fansite-Kit verwendet.
+	Vielen Dank an {13} für die Unterstützung tschechischer Buchstaben in den Schriftarten!
+
+	Der TCU Launcher sammelt, speichert oder überträgt keine persönlichen Daten.
+	* Deine Launcher-Einstellungen werden im Installationsverzeichnis des Launchers gespeichert.
+	* Über den TCU Launcher heruntergeladene Dateien können temporär im Ordner „downloads“ zwischengespeichert werden. Bei Bedarf können sie manuell oder über die Schaltfläche „{9}“ in den Launcher-Einstellungen gelöscht werden.
+	* Der Launcher kann beim Start und während der Nutzung eine Verbindung zur TCU-Projekt-Website ({10}) herstellen, um aktuelle Nachrichten, Launcher- und Patch-Updates abzurufen; es werden keine Nutzerdaten gesendet oder hochgeladen. Du kannst dies jederzeit deaktivieren, indem du die Einstellung „{11}“ aktivierst.
+
+	*** Der TCU Launcher/Projekt hilft dir NICHT dabei, The Crew-Spieldateien illegal zu beschaffen!
+	</string>
+	<string id="settings_restart_changes_details">Bitte starte den Launcher neu, um diese Änderungen zu übernehmen.</string>
+	<string id="settings_language_credit">{0} (von: {1})</string>
+	<string id="settings_launcher_offlinemode">Launcher-Offline-Modus</string>
+	<string id="settings_launcher_update_prompt">Hinweis zu Launcher-Updates</string>
+	<string id="settings_offline_cheats">Offline-Server-Cheats</string>
+	<string id="settings_scan_running_instances">Laufende Instanzen scannen</string>
+
+	<!-- TCU Net -->
+	<string id="tcunet_offline">Verbindung zu TCU Net fehlgeschlagen.</string>
+	<string id="tcunet_offline_details">Online-Funktionen des Launchers sind nicht verfügbar. Du kannst trotzdem deine Instanzen und Speicherstände verwalten und spielen.</string>
+	<string id="tcunet_connecting">Verbindung zu TCU Net wird hergestellt...</string>
+	<string id="tcunet_connecting_hold">Bitte einen Moment Geduld...</string>
+	<string id="tcunet_getting_news">Neueste TCU-Nachrichten werden abgerufen...</string>
+	<string id="tcunet_failed_to_get_news">Abrufen der TCU-Nachrichten fehlgeschlagen!</string>
+	<string id="tcunet_failed_to_get_news_details">Bitte versuche es später erneut.</string>
+	<string id="ext_link_traversal_details">Du bist dabei, den Link „{0}“ in deinem Standardbrowser zu öffnen.</string>
+	<string id="opening_tcuwebsite">TCU-Website wird geöffnet</string>
+	<string id="opening_discord">Discord wird geöffnet</string>
+	<string id="opening_patreon">Patreon wird geöffnet</string>
+	<string id="opening_youtube">YouTube wird geöffnet</string>
+
+	<!-- Spielinstanz -->
+	<string id="instance_new">Neue Installation hinzufügen</string>
+	<string id="instance_patch">Patch</string>
+	<string id="instance_patched">Gepatcht</string>
+	<string id="instance_patch_update">Update</string>
+	<string id="instance_patch_update_available">Update verfügbar</string>
+	<string id="instance_patch_invalid">Patch beschädigt</string>
+	<string id="instance_unpatched">Ungepatcht</string>
+	<string id="instance_patching">Patchvorgang läuft...</string>
+	<string id="instance_unsupported">Nicht unterstützt</string>
+	<string id="instance_unsupported_why">Warum?</string>
+	<string id="instance_unsupported_details">Leider wird diese Spielversion von keiner verfügbaren TCU-Patch-Version unterstützt. ({0})</string>
+	<string id="instance_patch_offline">Launcher ist offline, kann keinen TCU-Server-Patch abrufen.
+	Alternativ kannst du manuell einen TCU-Patch von deiner Festplatte auswählen und installieren.</string>
+	<string id="instance_patch_details">Bist du sicher, dass du diese Spielinstanz patchen möchtest? Deine Spieldateien könnten verändert werden.
+	(Neueste TCU-Server-Version: {0})
+	Alternativ kannst du manuell einen TCU-Patch von deiner Festplatte auswählen und installieren.</string>
+	<string id="instance_patch_update_details">Bist du sicher, dass du den TCU-Patch in dieser Spielinstanz aktualisieren möchtest? Deine Speicherstände und Einstellungen bleiben erhalten.
+	(Neueste TCU-Server-Version: {0})
+	Alternativ kannst du manuell einen TCU-Patch von deiner Festplatte auswählen und installieren.</string>
+	<string id="instance_already_running">Ein anderer The Crew-Spielprozess läuft bereits. Schließe ihn zuerst, bevor du einen weiteren startest.</string>
+	<string id="instance_action_while_running">Bitte schließe dein Spiel, um diese Aktion auszuführen!</string>
+	<string id="instance_unpatched_details">Diese Spielinstallation ist ungepatcht und wird nicht funktionieren. \n Drücke rechts auf die Schaltfläche „Patch“, danach kannst du das Spiel ordnungsgemäß starten.</string>
+	<string id="instance_noversion">Spielinstanz enthält keine Versionsinformationen! Stelle sicher, dass deine Spielinstallation gültig ist, und versuche, die Spielinstanz neu zu erstellen!</string>
+	<string id="instance_failed_to_launch">Starten dieser Spielinstanz fehlgeschlagen! Stelle sicher, dass deine Spielinstallation gültig ist, und versuche, die Spielinstanz neu zu erstellen!</string>
+	<string id="instance_remove_details">Bist du sicher, dass du die Spielinstanz „{0}“ entfernen möchtest? Dies entfernt oder verändert deine tatsächlichen Spieldateien und Speicherstände nicht – sie bleiben gepatcht.
+	Du kannst diese Spielinstanz jederzeit wieder hinzufügen.</string>
+	<!-- Serverinstanz -->
+	<string id="server_youre_playing_on">Du spielst auf: {0}.</string>
+	<string id="server_youre_playing_offline">Du spielst offline.</string>
+	<string id="server_youre_playing_offline_as">Du spielst offline als „{0}“</string>
+	<string id="server_youre_not_playing">Du spielst wahrscheinlich nicht.</string>
+	<string id="server_local_name">Offline-Server</string>
+	<string id="server_local_desc">Lokaler Offline-Server, der auf deinem Gerät läuft. Anders gesagt: Offline-Modus!</string>
+	<string id="server_cheats_disabled">Offline-Server-Cheats sind deaktiviert (in den Launcher-Einstellungen).</string>
+
+	<!-- Patchen -->
+	<string id="launcher_patch_success">Instanz „{0}“ wurde gepatcht. TCU-Server-Version: {1}</string>
+	<string id="launcher_patch_failed">Patchen der Instanz „{0}“ fehlgeschlagen: {1}</string>
+	<string id="launcher_patch_offline">Launcher kann keine Verbindung zu TCU Net herstellen. Du musst den Patch manuell herunterladen und installieren.</string>
+	<string id="launcher_patch_no_svmanifest">Kein Server-Manifest verfügbar. Bitte melde diesen Fehler den Entwicklern!</string>
+	<string id="launcher_patch_nopatch">Momentan ist kein TCU-Server-Patch für Spielversion {0} verfügbar. Tut uns leid!</string>
+
+	<!-- Prozesse -->
+	<string id="processes_ongoing_details">Im Launcher laufen derzeit Prozesse. Bitte warte, bis sie abgeschlossen sind.</string>
+	<string id="processes_ongoing_exit_details">Bist du sicher? Dies könnte zu Datenverlust führen.</string>
+	<string id="process_patching">Instanz wird gepatcht... [{0}]</string>
+
+	<!-- Speicherstände -->
+	<string id="save_enter_name">Gib den neuen Namen für den Speicherstand ein...</string>
+	<string id="save_fileselect_none">Keine Datei ausgewählt</string>
+	<string id="save_name">Name des Speicherstands</string>
+	<string id="save_added">Neuer Speicherstand mit dem Namen „{0}“ wurde hinzugefügt. Viel Spaß!</string>
+	<string id="save_added_failed">Beim Erstellen des neuen Speicherstands ist ein Fehler aufgetreten. Ist deine lokale Serverdatei beschädigt?</string>
+	<string id="save_delete">LÖSCHEN</string>
+	<string id="save_delete_details">Du bist dabei, den Speicherstand „{0}“ zu löschen. Diese Aktion kann nicht rückgängig gemacht werden. \n Bist du sicher, dass du fortfahren möchtest?</string>
+	<string id="save_delete_success">Speicherstand „{0}“ wurde erfolgreich gelöscht.</string>
+	<string id="save_delete_failed">Beim Löschen des Speicherstands „{0}“ ist ein Fehler aufgetreten. Möglicherweise existiert er nicht mehr oder die lokale Serverdatei ist beschädigt.</string>
+	<string id="save_delete_failed_nonexistent">Speicherstand „{0}“ kann nicht gelöscht werden, da er nicht existiert.</string>
+	<string id="save_import_success">Neuer Speicherstand wurde als „{0}“ importiert.</string>
+	<string id="save_import_failed">Import des Speicherstands fehlgeschlagen! Möglicherweise ist er beschädigt.</string>
+	<string id="save_export_dialog_title">TCU-Speicherstand exportieren</string>
+	<string id="save_export_success">Speicherstand erfolgreich exportiert.</string>
+	<string id="save_export_failed">Export des Speicherstands fehlgeschlagen. Möglicherweise existiert er nicht oder ist beschädigt.</string>
+	<string id="save_import_ubi_semifailed">Speicherstand wurde importiert, aber einige Elemente sind beschädigt und fehlen: \n {0}</string>
+	<string id="save_import_ubi_success">Exportierter Speicherstand erfolgreich importiert!</string>
+	<string id="save_import_ubi_failed">Import dieses Speicherstands fehlgeschlagen! Er scheint beschädigt zu sein. \n Es wurde kein Speicherstand hinzugefügt.</string>
+	<string id="save_import_ubi_notice">Diese Option ist nur für Nutzer gedacht, die im März 2024 vor der offiziellen Serverabschaltung den TCU-Speicherstand-Dumper verwendet haben. \n \n Die Datei sollte „{0}“ heißen. Du kannst sie umbenennen, solange die Endung .json erhalten bleibt.</string>
+	<string id="save_savename_exists">Der Spielername „{0}“ existiert bereits! Bitte wähle einen anderen.</string>
+	<string id="save_savename_long">Der Spielername „{0}“ ist zu lang! Er darf maximal {1} Zeichen enthalten.</string>
+	<string id="save_savename_short">Der Spielername „{0}“ ist zu kurz! Er muss mindestens {1} Zeichen enthalten.</string>
+	<string id="save_rename_success">Speicherstand „{0}“ erfolgreich in „{1}“ umbenannt.</string>
+	<string id="save_rename_failed">Speicherstand „{0}“ konnte nicht in „{1}“ umbenannt werden.</string>
+	<string id="save_rename_taken">Speicherstand „{0}“ konnte nicht umbenannt werden, da bereits ein Speicherstand mit dem Namen „{1}“ existiert! Bitte wähle einen anderen Namen.</string>
+
+	<!-- Tooltips -->
+	<string id="tooltip_instance_new">Neue The Crew-Instanz erstellen</string>
+	<string id="tooltip_instance_remove">Ausgewählte Instanz entfernen</string>
+	<string id="tooltip_instance_move_up">Ausgewählte Instanz nach oben verschieben</string>
+	<string id="tooltip_instance_move_down">Ausgewählte Instanz nach unten verschieben</string>
+	<string id="tooltip_instance_opendir">Verzeichnis der ausgewählten The Crew-Instanz öffnen</string>
+	<string id="tooltip_btn_news">Nachrichtenseite öffnen</string>
+	<string id="tooltip_btn_settings">Einstellungsmenü öffnen</string>
+	<string id="tooltip_btn_tcuwebsite">TCU-Website besuchen!</string>
+	<string id="tooltip_btn_discord">Unseren {0}-Server besuchen</string>
+	<string id="tooltip_btn_patreon">Unsere {0}-Seite besuchen</string>
+	<string id="tooltip_btn_youtube">Unseren {0}-Kanal besuchen</string>
+	<string id="tooltip_save_add">Neuen Speicherstand zum lokalen Server hinzufügen</string>
+	<string id="tooltip_save_remove">Ausgewählten Speicherstand dauerhaft löschen (Du wirst vorher noch einmal gefragt).</string>
+	<string id="tooltip_save_import">Neuen Speicherstand in deinen lokalen Server importieren</string>
+	<string id="tooltip_save_export">Ausgewählten Speicherstand exportieren</string>
+	<string id="tooltip_save_import_ubi">Exportierten Ubisoft-Speicherstand importieren</string>
+	<string id="tooltip_save_rename">Ausgewählten Speicherstand umbenennen</string>
+	<string id="tooltip_settings_launcher_offlinemode">Versetzt den Launcher in den Offline-Modus. Er wird keine Verbindung zu {0} herstellen und keine Nachrichten oder TCU-Server-Patches herunterladen.</string>
+	<string id="tooltip_settings_launcher_update_prompt">Wenn deaktiviert, wirst du nicht über Launcher-Updates informiert.</string>
+	<string id="tooltip_settings_offline_cheats">Wenn aktiviert, kannst du Cheats auf deinem Offline-Server verwenden.</string>
+	<string id="tooltip_settings_scan_running_instances">Wenn aktiviert, scannt der Launcher beim Start nach bereits laufenden Spielinstanzen. Es werden ausschließlich Prozesse mit dem Namen „{0}“ gescannt. Wenn dir das unangenehm ist, kannst du diese Option deaktivieren.</string>
+	<string id="tooltip_settings_reset">Setzt deine TCU Launcher-Einstellungen auf die Standardwerte zurück.</string>
+	<string id="tooltip_settings_clear_downloads">Löscht zwischengespeicherte Downloads aus dem Download-Ordner. Erfolgt automatisch alle {0} Tage.</string>
+	<string id="tooltip_settings_launcher_update">TCU Launcher-Update herunterladen und installieren, falls verfügbar.</string>
+	<string id="tooltip_settings_legal_info">Rechtliche Hinweise und Danksagungen anzeigen.</string>
+	<string id="tooltip_instructions">So verwendest du den TCU Launcher</string>
+	<string id="tooltip_platform_ubi">Dies ist eine {0}-Version.</string>
+	<string id="tooltip_platform_steam">Dies ist eine {0}-Version. Der TCU Launcher muss den Spielstart wegen DRM an {0} weiterleiten.</string>
+
+	<!-- Fehlermeldungen -->
+	<string id="errormsg_patch_launcheroffline">Launcher ist offline</string>
+	<string id="errormsg_patch_gameinstance_nopath">Spielinstanz hat keinen Pfad: {0}</string>
+	<string id="errormsg_patch_gameinstance_invalid_version">Spielversion ist für diese Instanz ungültig</string>
+	<string id="errormsg_patch_gameinstance_invalidpath">Spielinstanz hat ungültigen Pfad: {0}</string>
+	<string id="errormsg_patch_download_failed">Patch konnte nicht heruntergeladen werden ({0})</string>
+	<string id="errormsg_patch_download_failed_verbose">Patch konnte nicht heruntergeladen werden ({0}) für Spielversion: {1} \n {2}</string>
+	<string id="errormsg_patch_download_failed_completely">Download konnte aufgrund eines Verbindungsfehlers nicht gestartet werden.</string>
+	<string id="errormsg_patch_download_missing">Kompatibler Patch gefunden ({0}), aber konnte nicht heruntergeladen werden. Bitte melde dies den Entwicklern!</string>
+	<string id="errormsg_patch_archivecheck_failed">Archivprüfung fehlgeschlagen. Möglicherweise ist es verschlüsselt – in dem Fall ist das angegebene Passwort</string>
+	<!-- Warnmeldungen -->
+	<string id="warnmsg_multiple_steam_installs">Du hast mehr als eine {0}-Installation des Spiels hinzugefügt. Aufgrund der Funktionsweise des {0}-DRM wird nur deine Hauptinstallation des Spiels gestartet, unabhängig davon, welche du auswählst. Wenn du weißt, was du tust, sieh dir die Datei „{1}“ für weitere Informationen an.</string>
+
+	<!-- Erfolgsmeldungen -->
+	<string id="successmsg_patch_installed">Patch erfolgreich installiert! ({0})</string>
+
+	<!-- 1.1.0.0 Zeichenketten -->
+	<string id="apply">Übernehmen</string>
+
+	<!-- 1.1.5.0 Zeichenketten -->
+	<string id="save_already_in_use">Die Server-Datendatei scheint bereits von einem anderen Programm verwendet zu werden (möglicherweise vom Spiel).</string>
+
+	<!-- 1.1.6.0 Zeichenketten -->
+	<string id="server_manage">Verwalten</string>
+	<string id="try_again">Erneut versuchen</string>
+	<string id="successmsg_savecorrupted_restored">Deine Speicherstanddatei scheint beschädigt gewesen zu sein, wurde aber aus einem Backup wiederhergestellt. Du hast höchstens ein paar Minuten Fortschritt verloren.</string>
+	<string id="errormsg_savecorrupted_filelocked">Deine Speicherstanddatei scheint beschädigt zu sein, aber der Launcher kann sie nicht wiederherstellen. Wird sie gerade von einem anderen Prozess verwendet? ({0})</string>
+</lang>
