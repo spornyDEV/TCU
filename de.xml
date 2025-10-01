@@ -61,9 +61,9 @@
 	<string id="title_save_rename">Speicherstand umbenennen</string>
 	<string id="title_save_enter_new_name">Neuen Namen für Speicherstand eingeben</string>
 	<string id="title_save_active">Aktiver Speicherstand</string>
-	<string id="title_save_import">Speicherstand importieren</string>
-	<string id="title_save_export">Speicherstand exportieren</string>
-	<string id="title_save_import_ubi">UBI-Speicherstand importieren</string>
+	<string id="title_save_import">Importieren</string>
+	<string id="title_save_export">Exportieren</string>
+	<string id="title_save_import_ubi">Importiere UBI Save</string>
 	<string id="title_save_import_select">Wähle einen TCU-Speicherstand zum Importieren</string>
 	<string id="title_save_import_ubi_select">Wähle einen extrahierten Ubisoft-Speicherstand zum Importieren</string>
 	<string id="title_save_export_select">Wähle einen exportierten Speicherstand</string>
@@ -90,14 +90,14 @@
 	<string id="archive_enter_password">Entschlüsselungspasswort eingeben</string>
 	<string id="archive_enter_password_details">Dieses Archiv ist verschlüsselt. Bitte gib das Passwort ein, um es zu entschlüsseln.</string>
 		<!-- Einstellungen -->
-	<string id="settings_reset">Auf Standard zurücksetzen</string>
+	<string id="settings_reset">Zurücksetzen</string>
 	<string id="settings_reset_details">Du bist dabei, deine Launcher-Einstellungen auf die Standardwerte zurückzusetzen. Bist du sicher, dass du fortfahren möchtest?</string>
-	<string id="settings_update_launcher">Launcher aktualisieren</string>
+	<string id="settings_update_launcher">Aktualisieren</string>
 	<string id="settings_launcher_updated">Launcher aktualisiert.</string>
 	<string id="settings_update_launcher_offline">Launcher ist offline</string>
 	<string id="settings_update_details">Du bist dabei, ein neues Launcher-Update zu installieren ({0}). Möchtest du fortfahren?</string>
-	<string id="settings_clear_downloads">Downloads löschen</string>
-	<string id="settings_legal_info">Rechtliches und Danksagungen</string>
+	<string id="settings_clear_downloads">DLoads löschen</string>
+	<string id="settings_legal_info">Rechtliches</string>
 	<string id="settings_legal_info_details">Willkommen bei TCU!
 
 	TCU Projekt, 2025 [Gegründet {0}]
@@ -129,9 +129,9 @@
 	<string id="settings_scan_running_instances">Laufende Instanzen scannen</string>
 
 	<!-- TCU Net -->
-	<string id="tcunet_offline">Verbindung zu TCU Net fehlgeschlagen.</string>
+	<string id="tcunet_offline">Verbindung fehlgeschlagen.</string>
 	<string id="tcunet_offline_details">Online-Funktionen des Launchers sind nicht verfügbar. Du kannst trotzdem deine Instanzen und Speicherstände verwalten und spielen.</string>
-	<string id="tcunet_connecting">Verbindung zu TCU Net wird hergestellt...</string>
+	<string id="tcunet_connecting">Verbindung wird hergestellt...</string>
 	<string id="tcunet_connecting_hold">Bitte einen Moment Geduld...</string>
 	<string id="tcunet_getting_news">Neueste TCU-Nachrichten werden abgerufen...</string>
 	<string id="tcunet_failed_to_get_news">Abrufen der TCU-Nachrichten fehlgeschlagen!</string>
