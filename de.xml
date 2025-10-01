@@ -93,7 +93,7 @@
 	<string id="settings_reset">Zurücksetzen</string>
 	<string id="settings_reset_details">Du bist dabei, deine Launcher-Einstellungen auf die Standardwerte zurückzusetzen. Bist du sicher, dass du fortfahren möchtest?</string>
 	<string id="settings_update_launcher">Aktualisieren</string>
-	<string id="settings_launcher_updated">Launcher aktualisiert.</string>
+	<string id="settings_launcher_updated">Launcher aktuell</string>
 	<string id="settings_update_launcher_offline">Launcher ist offline</string>
 	<string id="settings_update_details">Du bist dabei, ein neues Launcher-Update zu installieren ({0}). Möchtest du fortfahren?</string>
 	<string id="settings_clear_downloads">DLoads löschen</string>
