@@ -1,0 +1,284 @@
+<!--
+	This is the default localization file.
+	The "id" attribute is how the launcher addresses each string internally.
+	The inner text (between the <string>...</string> diamond brackets) is the actual string that will be shown to the user.
+	
+	To create a new line in inner text, you can either type in "\n" (ie "\n\n" for 2 new lines),
+	or just press Enter to create a new line as usual. Both methods work.
+-->
+<lang>
+	<!-- Info -->
+	<info lang="Español" author="Jan"/>
+	<!-- Actions -->
+    <string id="ok">OK</string>
+    <string id="accept">Aceptar</string>
+    <string id="cancel">Cancelar</string>
+    <string id="yes">Sí</string>
+    <string id="no">No</string>
+    <string id="no_scary">NO</string>
+    <string id="manual_install">Manual</string>
+    <string id="select">Seleccionar</string>
+    <string id="selected">Seleccionado</string>
+    <string id="run_anyway">Ejecutar de todos modos</string>
+    <string id="create">Crear</string>
+    <string id="import">Importar</string>
+    <string id="rename">Renombrar</string>
+    <string id="file">Archivo</string>
+    <string id="play">Jugar</string>
+    <string id="play_on_steam">Jugar en Steam</string>
+    <string id="restart">Reiniciar</string>
+    <string id="exit">Salir</string>
+    <string id="exit_anyway">Salir de todos modos</string>
+
+    <!-- Titles -->
+    <string id="is_success">Éxito</string>
+    <string id="is_offline">Sin conexión</string>
+    <string id="is_error">Error</string>
+    <string id="warning">Advertencia</string>
+    <string id="alert">Alerta</string>
+    <string id="info">Información</string>
+    <string id="already_running">Ya en ejecución</string>
+    <string id="deleting_savegame">ELIMINANDO PARTIDA GUARDADA</string>
+    <string id="fail_no_reason">Sin motivo</string>
+    <string id="patching_failed">Falló el parcheo</string>
+    <string id="server_list">Lista de servidores</string>
+    <string id="settings">Configuración</string>
+    <string id="settings_language">Idioma</string>
+    <string id="settings_options">Opciones</string>
+    <string id="title_settings_reset">Restablecer configuración</string>
+    <string id="welcome_to_tcu">Bienvenido a {0}</string>
+    <string id="new_update">Nueva actualización</string>
+    <string id="processes_ongoing">Procesos en curso</string>
+    <string id="directory_invalid">Directorio no válido</string>
+    <string id="unpatched_instance">Instancia sin parche</string>
+    <string id="version_error">Error de versión</string>
+    <string id="title_patch">Parche</string>
+    <string id="title_update">Actualizar</string>
+    <string id="title_cheats">Trucos</string>
+    <string id="title_unsupported">No compatible</string>
+    <string id="title_unavailable">No disponible</string>
+    <string id="title_save_create">Crear nueva partida guardada</string>
+    <string id="title_save_rename">Renombrar partida guardada</string>
+    <string id="title_save_enter_new_name">Introduce el nuevo nombre de la partida guardada</string>
+    <string id="title_save_active">Partida activa</string>
+    <string id="title_save_import">Importar partida</string>
+    <string id="title_save_export">Exportar partida</string>
+    <string id="title_save_import_ubi">Importar partida UBI</string>
+    <string id="title_save_import_select">Selecciona una partida TCU para importar</string>
+    <string id="title_save_import_ubi_select">Selecciona una partida Ubisoft para importar</string>
+    <string id="title_save_export_select">Selecciona una partida exportada</string>
+    <string id="title_how_to_use">Cómo usar TCU Launcher</string>
+    <string id="local_server_manager">Administrador de servidor local</string>
+
+    <!-- Launcher Front-end -->
+    <string id="launcher_starting">Iniciando TCU Launcher...</string>
+    <string id="status_bar">{0} Launcher {1} | Instancias: {2}</string>
+    <string id="status_bar_update_pending">[Actualización disponible: {0}!]</string>
+    <string id="new_update_details">Nueva actualización del Launcher disponible: {0}. \n ¿Deseas descargarla ahora? \n (Nota: Puedes desactivar los avisos de actualización en la configuración)</string>
+    <string id="directory_invalid_details">Se ha seleccionado un directorio de juego {0} no válido. Por favor, selecciona un directorio válido que contenga el archivo "{1}".</string>
+    <string id="launcher_instructions">El TCU Launcher te ayuda a configurar y parchear tu instalación del juego The Crew. \n NO proporciona ni te ayuda a adquirir archivos del juego The Crew. \n\n
+    Para añadir una instalación existente de The Crew como "Instancia de juego":
+    - Haz clic en el botón [+] en el lado izquierdo de la ventana
+    - Navega al directorio de instalación de The Crew y selecciona "TheCrew.exe"
+    - Tu instalación del juego ahora está añadida como una Instancia de juego. Haz clic en el botón [{0}] para instalar el parche TCU en la instancia seleccionada.
+    - Selecciona el servidor en el que deseas jugar en la Lista de servidores (Servidor Offline para jugar sin conexión).
+    - Haz clic en [{1}] ¡y diviértete!
+
+    Cómo reinstalar el parche TCU:
+    - Elimina el archivo "{2}" en tu directorio de juego, o cualquier otro archivo de parche TCU. Esto hará que el Launcher muestre un botón de "Actualizar" en la instancia correspondiente - presiónalo para reinstalar el parche TCU.
+    </string>
+
+    <string id="archive_enter_password">Introduce la contraseña de descifrado</string>
+    <string id="archive_enter_password_details">Este archivo está cifrado. Por favor, introduce la contraseña para descifrarlo.</string>
+
+    <!-- Settings -->
+    <string id="settings_reset">Restablecer a valores predeterminados</string>
+    <string id="settings_reset_details">Estás a punto de restablecer la configuración del Launcher a los valores predeterminados. ¿Estás seguro de que deseas continuar?</string>
+    <string id="settings_update_launcher">Actualizar Launcher</string>
+    <string id="settings_launcher_updated">Launcher actualizado.</string>
+    <string id="settings_update_launcher_offline">Launcher sin conexión</string>
+    <string id="settings_update_details">Estás a punto de instalar una nueva actualización del Launcher ({0}). ¿Deseas continuar?</string>
+    <string id="settings_clear_downloads">Borrar descargas</string>
+    <string id="settings_legal_info">Información legal y créditos</string>
+    <string id="settings_legal_info_details">¡Bienvenido a TCU!
+
+    Proyecto TCU, 2025 [Fundado en {0}]
+    Creado por {1}.
+
+    TCU es un proyecto comunitario que revive el juego solo en línea "{12}" (2014), que fue cerrado en 2024.
+    *** El Proyecto TCU y sus desarrolladores no están afiliados de ninguna manera con el editor {2} ni con el desarrollador {3}.
+
+    TCU Launcher (versión {4}) fue creado por {1} y escrito en {5}, utilizando {6} para la interfaz gráfica.
+    Librerías externas utilizadas:
+    * {7}, para mostrar la página principal de noticias.
+    * {8}, para soporte de archivos .7z.
+
+    * Entre los recursos originales, se utilizan algunas imágenes, fuentes y medios del kit de fans de The Crew.
+    ¡Gracias a {13} por añadir soporte para letras checas en las fuentes!
+
+    TCU Launcher no recopila, almacena ni sube ninguno de tus datos personales.
+    * La configuración del usuario del launcher se guarda dentro del directorio de instalación del launcher.
+    * Las descargas obtenidas a través del TCU Launcher pueden almacenarse temporalmente en la carpeta "downloads". Si es necesario, pueden eliminarse manualmente o presionando el botón "{9}" en la configuración del launcher.
+    * El Launcher puede conectarse al sitio web del Proyecto TCU ({10}) durante el inicio y uso, para obtener las últimas noticias, actualizaciones del launcher y parches TCU; no se envían ni suben datos del usuario. Siempre puedes desactivar esto activando la opción "{11}".
+
+    *** ¡El Launcher/Proyecto TCU NO te ayuda a adquirir archivos del juego The Crew de forma ilegal!
+    </string>
+        <string id="settings_restart_changes_details">Por favor, reinicia el Launcher para aplicar estos cambios.</string>
+    <string id="settings_language_credit">{0} (por: {1})</string>
+    <string id="settings_launcher_offlinemode">Modo sin conexión del Launcher</string>
+    <string id="settings_launcher_update_prompt">Aviso sobre actualizaciones del Launcher</string>
+    <string id="settings_offline_cheats">Trucos del servidor sin conexión</string>
+    <string id="settings_scan_running_instances">Escanear instancias en ejecución</string>
+
+    <!-- TCU Net -->
+    <string id="tcunet_offline">No se pudo conectar a TCU Net.</string>
+    <string id="tcunet_offline_details">Las funciones en línea del Launcher no están disponibles. Aún puedes jugar y gestionar tus instancias y partidas guardadas.</string>
+    <string id="tcunet_connecting">Conectando a TCU Net...</string>
+    <string id="tcunet_connecting_hold">Por favor, espera...</string>
+    <string id="tcunet_getting_news">Obteniendo las últimas noticias de TCU...</string>
+    <string id="tcunet_failed_to_get_news">¡No se pudieron obtener las noticias de TCU!</string>
+    <string id="tcunet_failed_to_get_news_details">Por favor, inténtalo de nuevo más tarde.</string>
+    <string id="ext_link_traversal_details">Estás a punto de abrir el enlace "{0}" en tu navegador predeterminado.</string>
+    <string id="opening_tcuwebsite">Abriendo el sitio web de TCU</string>
+    <string id="opening_discord">Abriendo Discord</string>
+    <string id="opening_patreon">Abriendo Patreon</string>
+    <string id="opening_youtube">Abriendo YouTube</string>
+
+    <!-- Game Instance -->
+    <string id="instance_new">Agregar nueva instalación</string>
+    <string id="instance_patch">Parche</string>
+    <string id="instance_patched">Parche aplicado</string>
+    <string id="instance_patch_update">Actualizar</string>
+    <string id="instance_patch_update_available">Actualización disponible</string>
+    <string id="instance_patch_invalid">Parche dañado</string>
+    <string id="instance_unpatched">Sin parche</string>
+    <string id="instance_patching">Aplicando parche...</string>
+    <string id="instance_unsupported">No compatible</string>
+    <string id="instance_unsupported_why">¿Por qué?</string>
+    <string id="instance_unsupported_details">Desafortunadamente, esta versión del juego no es compatible con ninguna versión disponible del parche TCU. ({0})</string>
+    <string id="instance_patch_offline">El Launcher está sin conexión, no puede obtener ningún parche del servidor TCU.
+    Alternativamente, puedes seleccionar manualmente un parche TCU desde tu disco duro.</string>
+    <string id="instance_patch_details">¿Estás seguro de que deseas aplicar el parche a esta instancia del juego? Los archivos del juego pueden ser modificados.
+    (Última versión del servidor TCU: {0})
+    Alternativamente, puedes seleccionar manualmente un parche TCU desde tu disco duro.</string>
+    <string id="instance_patch_update_details">¿Estás seguro de que deseas actualizar el parche TCU en esta instancia del juego? Tus partidas guardadas y configuraciones no se verán afectadas.
+    (Última versión del servidor TCU: {0})
+    Alternativamente, puedes seleccionar manualmente un parche TCU desde tu disco duro.</string>
+    <string id="instance_already_running">Otro proceso del juego The Crew ya está en ejecución. Ciérralo antes de iniciar otro.</string>
+    <string id="instance_action_while_running">¡Por favor, cierra el juego para realizar esta acción!</string>
+    <string id="instance_unpatched_details">Esta instalación del juego no tiene parche y simplemente no funcionará. \n Presiona el botón "Parche" a la derecha, luego podrás ejecutar el juego correctamente.</string>
+    <string id="instance_noversion">¡La instancia del juego no tiene información de versión! Asegúrate de que tu instalación del juego sea válida y trata de recrear la instancia.</string>
+    <string id="instance_failed_to_launch">¡No se pudo iniciar esta instancia del juego! Asegúrate de que tu instalación del juego sea válida y trata de recrear la instancia.</string>
+    <string id="instance_remove_details">¿Estás seguro de que deseas eliminar la instancia de juego '{0}'? Esto no eliminará ni afectará tus archivos de juego ni partidas guardadas, y permanecerá parcheada.
+    Puedes volver a agregar esta instancia de juego en cualquier momento.</string>
+        <!-- Server Instance -->
+    <string id="server_youre_playing_on">Estás jugando en: {0}.</string>
+    <string id="server_youre_playing_offline">Estás jugando sin conexión.</string>
+    <string id="server_youre_playing_offline_as">Estás jugando sin conexión como "{0}"</string>
+    <string id="server_youre_not_playing">Probablemente no estás jugando.</string>
+    <string id="server_local_name">Servidor sin conexión</string>
+    <string id="server_local_desc">Servidor sin conexión local que se ejecuta en tu máquina. En otras palabras: ¡Modo sin conexión!</string>
+    <string id="server_cheats_disabled">Los trucos del servidor sin conexión están desactivados (en la configuración del Launcher).</string>
+
+    <!-- Patching -->
+    <string id="launcher_patch_success">La instancia '{0}' ha sido parcheada. Versión del servidor TCU: {1}</string>
+    <string id="launcher_patch_failed">No se pudo parchear la instancia '{0}': {1}</string>
+    <string id="launcher_patch_offline">El Launcher no puede conectarse a TCU Net. Tendrás que descargar e instalar el parche manualmente.</string>
+    <string id="launcher_patch_no_svmanifest">No hay manifiesto del servidor disponible. ¡Por favor, informa este error a los desarrolladores!</string>
+    <string id="launcher_patch_nopatch">No hay parche del servidor TCU disponible para la versión del juego {0} en este momento. ¡Lo sentimos!</string>
+
+    <!-- Processes -->
+    <string id="processes_ongoing_details">Hay procesos en curso en el Launcher. Por favor, espera a que se completen.</string>
+    <string id="processes_ongoing_exit_details">¿Estás seguro? Esto puede causar corrupción.</string>
+    <string id="process_patching">Aplicando parche a la instancia... [{0}]</string>
+
+    <!-- Savegames -->
+    <string id="save_enter_name">Introduce el nuevo nombre de la partida guardada...</string>
+    <string id="save_fileselect_none">Ningún archivo seleccionado</string>
+    <string id="save_name">Nombre de la partida guardada</string>
+    <string id="save_added">Se ha añadido una nueva partida guardada llamada "{0}". ¡Diviértete!</string>
+    <string id="save_added_failed">Algo salió mal al intentar crear una nueva partida guardada. ¿Está dañado tu archivo de datos del servidor local?</string>
+    <string id="save_delete">ELIMINAR</string>
+    <string id="save_delete_details">Estás a punto de eliminar la partida guardada "{0}". Esta acción no se puede deshacer. \n ¿Estás seguro de que deseas continuar?</string>
+    <string id="save_delete_success">La partida guardada "{0}" se ha eliminado correctamente.</string>
+    <string id="save_delete_failed">Algo salió mal al eliminar la partida guardada "{0}". Puede que ya no exista o que el archivo de datos del servidor local esté dañado.</string>
+    <string id="save_delete_failed_nonexistent">No se puede eliminar la partida guardada "{0}", no existe.</string>
+    <string id="save_import_success">Nueva partida guardada importada como "{0}".</string>
+    <string id="save_import_failed">¡Falló la importación de la partida guardada! Puede estar dañada.</string>
+    <string id="save_export_dialog_title">Exportar partida guardada de TCU</string>
+    <string id="save_export_success">Partida guardada exportada correctamente.</string>
+    <string id="save_export_failed">Falló la exportación de la partida guardada. Puede que no exista o esté dañada.</string>
+    <string id="save_import_ubi_semifailed">La partida guardada ha sido importada, pero algunos elementos están dañados y faltarán: \n {0}</string>
+    <string id="save_import_ubi_success">¡Partida guardada dumpada importada correctamente!</string>
+    <string id="save_import_ubi_failed">¡Falló la importación de esta partida guardada! Parece estar dañada. \n No se ha añadido ninguna partida guardada.</string>
+    <string id="save_import_ubi_notice">Esta opción es solo para quienes usaron el extractor de partidas guardadas de TCU en marzo de 2024 antes del cierre oficial del servidor. \n \n El archivo debe llamarse "{0}". Puedes haberlo renombrado, pero está bien siempre que mantengas la extensión .json.</string>
+    <string id="save_savename_exists">¡El nombre de jugador "{0}" ya existe! Por favor, elige otro.</string>
+    <string id="save_savename_long">¡El nombre de jugador "{0}" es demasiado largo! Debe tener menos de {1} caracteres.</string>
+    <string id="save_savename_short">¡El nombre de jugador "{0}" es demasiado corto! Debe tener al menos {1} caracteres.</string>
+    <string id="save_rename_success">Partida guardada "{0}" renombrada exitosamente a "{1}".</string>
+    <string id="save_rename_failed">No se pudo renombrar la partida guardada "{0}" a "{1}".</string>
+    <string id="save_rename_taken">No se pudo renombrar la partida guardada "{0}" porque ya existe una partida llamada "{1}". ¡Por favor, elige otro nombre!</string>
+
+    <!-- Tooltips -->
+    <string id="tooltip_instance_new">Crear una nueva instancia de The Crew</string>
+    <string id="tooltip_instance_remove">Eliminar la instancia seleccionada</string>
+    <string id="tooltip_instance_move_up">Mover la instancia seleccionada hacia arriba</string>
+    <string id="tooltip_instance_move_down">Mover la instancia seleccionada hacia abajo</string>
+    <string id="tooltip_instance_opendir">Abrir el directorio de la instancia seleccionada de The Crew</string>
+    <string id="tooltip_btn_news">Abrir la página de noticias</string>
+    <string id="tooltip_btn_settings">Abrir el menú de configuración</string>
+    <string id="tooltip_btn_tcuwebsite">¡Visita el sitio web de TCU!</string>
+    <string id="tooltip_btn_discord">Visita nuestro servidor {0}</string>
+    <string id="tooltip_btn_patreon">Visita nuestra página {0}</string>
+    <string id="tooltip_btn_youtube">Visita nuestro canal {0}</string>
+    <string id="tooltip_save_add">Agregar una nueva partida guardada a tu servidor local</string>
+    <string id="tooltip_save_remove">Eliminar permanentemente la partida guardada seleccionada (Se te pedirá confirmación antes de eliminar).</string>
+    <string id="tooltip_save_import">Importar una nueva partida guardada a tu servidor local</string>
+    <string id="tooltip_save_export">Exportar la partida guardada seleccionada</string>
+    <string id="tooltip_save_import_ubi">Importar una partida guardada dumpada de Ubisoft</string>
+    <string id="tooltip_save_rename">Renombrar la partida guardada seleccionada</string>
+    <string id="tooltip_settings_launcher_offlinemode">Pone el Launcher en modo sin conexión. No se conectará a {0}, y no podrá obtener las últimas noticias ni descargar parches del servidor TCU.</string>
+    <string id="tooltip_settings_launcher_update_prompt">Si está desactivado, no se te avisará sobre actualizaciones del Launcher.</string>
+    <string id="tooltip_settings_offline_cheats">Si está activado, podrás usar trucos en tu servidor sin conexión.</string>
+    <string id="tooltip_settings_scan_running_instances">Si está activado, el Launcher escaneará y detectará instancias del juego ya en ejecución al iniciar. Escanea exclusivamente procesos llamados "{0}", pero si eso te incomoda, puedes desactivarlo.</string>
+    <string id="tooltip_settings_reset">Restablece la configuración del TCU Launcher a los valores predeterminados.</string>
+    <string id="tooltip_settings_clear_downloads">Borra las descargas en caché de la carpeta de descargas. Se realiza automáticamente cada {0} días.</string>
+    <string id="tooltip_settings_launcher_update">Descargar e instalar una actualización del TCU Launcher, si está disponible.</string>
+    <string id="tooltip_settings_legal_info">Ver información legal y créditos.</string>
+    <string id="tooltip_instructions">Cómo usar TCU Launcher</string>
+    <string id="tooltip_platform_ubi">Esta es una versión {0}.</string>
+    <string id="tooltip_platform_steam">Esta es una versión {0}. El TCU Launcher debe redirigir el inicio del juego a {0} debido al DRM.</string>
+        <!-- Mensajes de error -->
+    <string id="errormsg_patch_launcheroffline">El Launcher está sin conexión</string>
+    <string id="errormsg_patch_gameinstance_nopath">La instancia del juego no tiene una ruta definida: {0}</string>
+    <string id="errormsg_patch_gameinstance_invalid_version">La versión del juego no es válida para esta instancia</string>
+    <string id="errormsg_patch_gameinstance_invalidpath">Ruta no válida para la instancia del juego: {0}</string>
+    <string id="errormsg_patch_download_failed">Error al descargar el parche ({0})</string>
+    <string id="errormsg_patch_download_failed_verbose">Error al descargar el parche ({0}) para la versión del juego: {1} \n {2}</string>
+    <string id="errormsg_patch_download_failed_completely">Error al iniciar la descarga debido a un problema de conexión.</string>
+    <string id="errormsg_patch_download_missing">Se encontró un parche compatible ({0}), pero no se pudo descargar. ¡Por favor, informa esto a los desarrolladores!</string>
+    <string id="errormsg_patch_archivecheck_failed">Falló la verificación del archivo. Puede estar cifrado; en ese caso, la contraseña proporcionada es incorrecta.</string>
+    <string id="errormsg_patch_no_patch_found">No hay ningún parche compatible del servidor TCU disponible para la versión del juego: {0}</string>
+    <string id="errormsg_patch_deploy_failed">El parche se descargó ({0}) pero no se pudo instalar.</string>
+    <string id="errormsg_no_connection_to_tcunet">No se puede conectar a {0}. Puede estar caído actualmente o has perdido la conexión a Internet.</string>
+    <string id="errormsg_duplicate_instance">Esta instalación del juego ya ha sido añadida como instancia: "{0}"</string>
+
+    <!-- Mensajes de advertencia -->
+    <string id="warnmsg_multiple_steam_installs">Has añadido más de una instalación de {0} del juego. Debido al funcionamiento del DRM de {0}, solo se iniciará tu instalación principal del juego, independientemente de cuál selecciones. Si sabes lo que estás haciendo, revisa el archivo "{1}" para más información.</string>
+
+    <!-- Mensajes de éxito -->
+    <string id="successmsg_patch_installed">¡Parche instalado correctamente! ({0})</string>
+
+    <!-- 1.1.0.0 -->
+    <string id="apply">Aplicar</string>
+
+    <!-- 1.1.5.0 -->
+    <string id="save_already_in_use">El archivo de datos del servidor parece estar en uso por otro programa (quizás el juego).</string>
+
+    <!-- 1.1.6.0 -->
+    <string id="server_manage">Gestionar</string>
+    <string id="try_again">Intentar de nuevo</string>
+    <string id="successmsg_savecorrupted_restored">Tu archivo de partida guardada parece estar dañado, pero ha sido restaurado desde una copia de seguridad. Es posible que hayas perdido unos minutos de progreso como máximo.</string>
+    <string id="errormsg_savecorrupted_filelocked">Tu archivo de partida guardada parece estar dañado, pero el Launcher no puede restaurarlo. ¿Está siendo usado por otro proceso? ({0})</string>
+	<!-- End of 1.1.6.0 stirngs -->
+</lang>
